@@ -13,6 +13,10 @@ Subdirectories / key formats:
   the header, e.g., `-----BEGIN RSA PRIVATE KEY-----`, `-----BEGIN EC PRIVATE KEY-----`.
   It is not supported for modern key types like Ed25519.
 
+* `putty-ppk-private`: [PPK format](
+  https://tartarus.org/~simon/putty-snapshots/htmldoc/AppendixC.html) used by the PuTTY
+  SSH implementation. The `puttygen` command line tool can create and convert such keys
+  and supports "traditional" keys as an input format.
 
 # copyright
 
