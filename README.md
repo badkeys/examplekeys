@@ -18,6 +18,9 @@ Subdirectories / key formats:
   SSH implementation. The `puttygen` command line tool can create and convert such keys
   and supports "traditional" keys as an input format.
 
+* `openssh-pem-private`: Newer versions of OpenSSH use a custom private key format with
+  the header `-----BEGIN OPENSSH PRIVATE KEY-----`.
+
 # copyright
 
 This README file and other documentation in this repository is licensed as CC0.
