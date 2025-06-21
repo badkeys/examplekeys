@@ -9,6 +9,9 @@ Subdirectories / key formats:
 * `spki-pem-public`: Subject Public Key Info (RFC 5280) PEM format with the
   `-----BEGIN PUBLIC KEY-----` header.
 
+* `pkcs-pem-public`: PKCS #1 PEM public key (only RSA) with the
+  `-----BEGIN RSA PUBLIC KEY-----` header.
+
 * `traditiona-pem-private`: The "traditional" private key format shows the algorithm in
   the header, e.g., `-----BEGIN RSA PRIVATE KEY-----`, `-----BEGIN EC PRIVATE KEY-----`.
   It is not supported for modern key types like Ed25519.
